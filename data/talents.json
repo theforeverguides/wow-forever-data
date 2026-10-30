@@ -1,0 +1,3466 @@
+{
+  "_credit": "Talent tree layout derived from WoW Forever beta client data via foreverdiff.com (https://foreverdiff.com). Compiled by Forever Guides (theforeverguides.com).",
+  "maintained_by": "Forever Guides (theforeverguides.com)",
+  "calculator": "https://theforeverguides.com/tools/talents/",
+  "note": "Tree layout only (name, ranks, grid position, prerequisite). Rank tooltip text deliberately omitted. row/col are 1-based.",
+  "classes": {
+    "Druid": {
+      "total_points": 51,
+      "first_point_level": 10,
+      "trees": [
+        {
+          "name": "Balance",
+          "talents": [
+            {
+              "name": "Improved Wrath",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Genesis",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Moonglow",
+              "max_rank": 3,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Moonfire",
+              "max_rank": 2,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Nature's Majesty",
+              "max_rank": 2,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Nature's Reach",
+              "max_rank": 2,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Improved Entangling Roots",
+              "max_rank": 3,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Nature's Splendor",
+              "max_rank": 1,
+              "row": 3,
+              "col": 3,
+              "prereq": "Nature's Majesty"
+            },
+            {
+              "name": "Insect Swarm",
+              "max_rank": 1,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Vengeance",
+              "max_rank": 5,
+              "row": 4,
+              "col": 2,
+              "prereq": "Improved Moonfire"
+            },
+            {
+              "name": "Improved Starfire",
+              "max_rank": 5,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Overgrowth",
+              "max_rank": 2,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Nature's Grace",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Eclipse",
+              "max_rank": 3,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Moonfury",
+              "max_rank": 5,
+              "row": 6,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Moonkin Form",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": null
+            }
+          ]
+        },
+        {
+          "name": "Feral Combat",
+          "talents": [
+            {
+              "name": "Ferocity",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Heart of the Wild",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Feral Swiftness",
+              "max_rank": 2,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Feral Instinct",
+              "max_rank": 3,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Brutal Impact",
+              "max_rank": 2,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Thick Hide",
+              "max_rank": 3,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Shredding Attacks",
+              "max_rank": 3,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Savage Fury",
+              "max_rank": 2,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Feral Charge",
+              "max_rank": 1,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Sharpened Claws",
+              "max_rank": 2,
+              "row": 3,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Shifting Power",
+              "max_rank": 1,
+              "row": 4,
+              "col": 1,
+              "prereq": "Shredding Attacks"
+            },
+            {
+              "name": "Primal Bite",
+              "max_rank": 1,
+              "row": 4,
+              "col": 2,
+              "prereq": "Savage Fury"
+            },
+            {
+              "name": "Predatory Strikes",
+              "max_rank": 3,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Blood Frenzy",
+              "max_rank": 2,
+              "row": 4,
+              "col": 4,
+              "prereq": "Sharpened Claws"
+            },
+            {
+              "name": "Improved Shifting Power",
+              "max_rank": 2,
+              "row": 5,
+              "col": 1,
+              "prereq": "Shifting Power"
+            },
+            {
+              "name": "Leader of the Pack",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Natural Instinct",
+              "max_rank": 2,
+              "row": 5,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Natural Reaction",
+              "max_rank": 5,
+              "row": 6,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Rend and Tear",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": "Predatory Strikes"
+            },
+            {
+              "name": "Berserk",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Leader of the Pack"
+            }
+          ]
+        },
+        {
+          "name": "Restoration",
+          "talents": [
+            {
+              "name": "Nature's Focus",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Furor",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Naturalist",
+              "max_rank": 5,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Subtlety",
+              "max_rank": 3,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Natural Shapeshifter",
+              "max_rank": 3,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Reflection",
+              "max_rank": 3,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Gift of Nature",
+              "max_rank": 5,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Gift of the Earthmother",
+              "max_rank": 1,
+              "row": 3,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Tranquil Spirit",
+              "max_rank": 5,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Rejuvenation",
+              "max_rank": 3,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Swiftmend",
+              "max_rank": 1,
+              "row": 4,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Nature's Swiftness",
+              "max_rank": 1,
+              "row": 5,
+              "col": 1,
+              "prereq": "Naturalist"
+            },
+            {
+              "name": "Living Spirit",
+              "max_rank": 3,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Tranquility",
+              "max_rank": 2,
+              "row": 5,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Improved Regrowth",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": "Improved Rejuvenation"
+            },
+            {
+              "name": "Wild Growth",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Living Spirit"
+            }
+          ]
+        }
+      ]
+    },
+    "Hunter": {
+      "total_points": 51,
+      "first_point_level": 10,
+      "trees": [
+        {
+          "name": "Beast Mastery",
+          "talents": [
+            {
+              "name": "Deadly Aspects",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Endurance Training",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Focused Fire",
+              "max_rank": 2,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Aspect of the Monkey",
+              "max_rank": 3,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Pathfinding",
+              "max_rank": 2,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Revive Pet",
+              "max_rank": 2,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Bestial Swiftness",
+              "max_rank": 1,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Unleashed Fury",
+              "max_rank": 5,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Mend Pet",
+              "max_rank": 2,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Ferocity",
+              "max_rank": 5,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Summon Hawk",
+              "max_rank": 1,
+              "row": 4,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Spirit Bond",
+              "max_rank": 2,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Intimidation",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": "Bestial Swiftness"
+            },
+            {
+              "name": "Bestial Discipline",
+              "max_rank": 2,
+              "row": 5,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Frenzy",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": "Ferocity"
+            },
+            {
+              "name": "Bestial Wrath",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Intimidation"
+            }
+          ]
+        },
+        {
+          "name": "Marksmanship",
+          "talents": [
+            {
+              "name": "Hawk Eye",
+              "max_rank": 3,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Concussive Shot",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Lethal Attacks",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Stings",
+              "max_rank": 3,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Efficiency",
+              "max_rank": 5,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Careful Aim",
+              "max_rank": 5,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Rapid Killing",
+              "max_rank": 2,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Arcane Shot",
+              "max_rank": 5,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Lone Wolf",
+              "max_rank": 1,
+              "row": 3,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Trueshot Aura",
+              "max_rank": 1,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Mortal Shots",
+              "max_rank": 5,
+              "row": 4,
+              "col": 3,
+              "prereq": "Careful Aim"
+            },
+            {
+              "name": "Improved Serpent Sting",
+              "max_rank": 5,
+              "row": 4,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Rapid Recuperation",
+              "max_rank": 2,
+              "row": 5,
+              "col": 1,
+              "prereq": "Rapid Killing"
+            },
+            {
+              "name": "Barrage",
+              "max_rank": 3,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Scatter Shot",
+              "max_rank": 1,
+              "row": 5,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Ranged Weapon Specialization",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Sniper Shot",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Trueshot Aura"
+            }
+          ]
+        },
+        {
+          "name": "Survival",
+          "talents": [
+            {
+              "name": "Improved Tracking",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Deflection",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Entrapment",
+              "max_rank": 5,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Savage Strikes",
+              "max_rank": 2,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Survivalist",
+              "max_rank": 5,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Wing Clip",
+              "max_rank": 3,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Clever Traps",
+              "max_rank": 2,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Surefooted",
+              "max_rank": 3,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Deterrence",
+              "max_rank": 1,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Survival Tactics",
+              "max_rank": 2,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Predator's Edge",
+              "max_rank": 5,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Counterattack",
+              "max_rank": 1,
+              "row": 4,
+              "col": 3,
+              "prereq": "Deterrence"
+            },
+            {
+              "name": "Resourcefulness",
+              "max_rank": 2,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Expose Prey",
+              "max_rank": 2,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Survivalist's Discipline",
+              "max_rank": 2,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Strider Kick",
+              "max_rank": 1,
+              "row": 5,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Lightning Reflexes",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Lacerating Strikes",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Expose Prey"
+            }
+          ]
+        }
+      ]
+    },
+    "Mage": {
+      "total_points": 51,
+      "first_point_level": 10,
+      "trees": [
+        {
+          "name": "Arcane",
+          "talents": [
+            {
+              "name": "Wand Specialization",
+              "max_rank": 2,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Arcane Focus",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Channeling",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Missile Barrage",
+              "max_rank": 2,
+              "row": 1,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Arcane Subtlety",
+              "max_rank": 2,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Magic Absorption",
+              "max_rank": 2,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Arcane Concentration",
+              "max_rank": 5,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Arcane Resilience",
+              "max_rank": 2,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Arcane Geometry",
+              "max_rank": 2,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Arcane Impact",
+              "max_rank": 3,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Arcane Blast",
+              "max_rank": 1,
+              "row": 3,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Arcane Shielding",
+              "max_rank": 2,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Counterspell",
+              "max_rank": 2,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Arcane Meditation",
+              "max_rank": 3,
+              "row": 4,
+              "col": 3,
+              "prereq": "Arcane Concentration"
+            },
+            {
+              "name": "Arcane Wrath",
+              "max_rank": 1,
+              "row": 4,
+              "col": 4,
+              "prereq": "Arcane Blast"
+            },
+            {
+              "name": "Presence of Mind",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Arcane Mind",
+              "max_rank": 5,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Arcane Instability",
+              "max_rank": 3,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Arcane Power",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Presence of Mind"
+            }
+          ]
+        },
+        {
+          "name": "Fire",
+          "talents": [
+            {
+              "name": "Improved Fire Blast",
+              "max_rank": 2,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Incineration",
+              "max_rank": 3,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Fireball",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Ignite",
+              "max_rank": 5,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Flame Throwing",
+              "max_rank": 2,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Impact",
+              "max_rank": 3,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Burning Soul",
+              "max_rank": 3,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Flamestrike",
+              "max_rank": 3,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Pyroblast",
+              "max_rank": 1,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Scorch",
+              "max_rank": 3,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Fire Ward",
+              "max_rank": 2,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Heating Up",
+              "max_rank": 1,
+              "row": 4,
+              "col": 3,
+              "prereq": "Pyroblast"
+            },
+            {
+              "name": "Master of Elements",
+              "max_rank": 3,
+              "row": 4,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Critical Mass",
+              "max_rank": 5,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Blast Wave",
+              "max_rank": 1,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Fire Power",
+              "max_rank": 3,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Combustion",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Critical Mass"
+            }
+          ]
+        },
+        {
+          "name": "Frost",
+          "talents": [
+            {
+              "name": "Frost Warding",
+              "max_rank": 2,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Frostbolt",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Elemental Precision",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Ice Shards",
+              "max_rank": 5,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Permafrost",
+              "max_rank": 3,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Frost Nova",
+              "max_rank": 2,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Frostbite",
+              "max_rank": 3,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Piercing Ice",
+              "max_rank": 3,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Frost Channeling",
+              "max_rank": 3,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Ice Lance",
+              "max_rank": 1,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Blizzard",
+              "max_rank": 3,
+              "row": 3,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Arctic Reach",
+              "max_rank": 2,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Ice Block",
+              "max_rank": 1,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Shatter",
+              "max_rank": 3,
+              "row": 4,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Improved Cone of Cold",
+              "max_rank": 3,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Cold Snap",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Fingers of Frost",
+              "max_rank": 2,
+              "row": 5,
+              "col": 3,
+              "prereq": "Ice Lance"
+            },
+            {
+              "name": "Winter's Chill",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Ice Barrier",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Cold Snap"
+            }
+          ]
+        }
+      ]
+    },
+    "Paladin": {
+      "total_points": 51,
+      "first_point_level": 10,
+      "trees": [
+        {
+          "name": "Holy",
+          "talents": [
+            {
+              "name": "Divine Strength",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Divine Intellect",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Healing Light",
+              "max_rank": 3,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Spiritual Focus",
+              "max_rank": 2,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Seals",
+              "max_rank": 3,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Unyielding Faith",
+              "max_rank": 2,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Voice of Truth",
+              "max_rank": 1,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Reverence",
+              "max_rank": 3,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Purifying Power",
+              "max_rank": 2,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Infusion of Light",
+              "max_rank": 2,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Illumination",
+              "max_rank": 5,
+              "row": 4,
+              "col": 2,
+              "prereq": "Reverence"
+            },
+            {
+              "name": "Divine Favor",
+              "max_rank": 1,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Divine Precision",
+              "max_rank": 3,
+              "row": 5,
+              "col": 1,
+              "prereq": "Holy Shock"
+            },
+            {
+              "name": "Holy Shock",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Consecrated Ground",
+              "max_rank": 2,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Holy Power",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Light's Vigil",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Holy Shock"
+            }
+          ]
+        },
+        {
+          "name": "Protection",
+          "talents": [
+            {
+              "name": "Toughness",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Redoubt",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Precision",
+              "max_rank": 3,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Guardian's Favor",
+              "max_rank": 2,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Anticipation",
+              "max_rank": 5,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Improved Seal of Fury",
+              "max_rank": 1,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Righteous Fury",
+              "max_rank": 3,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Shield Specialization",
+              "max_rank": 3,
+              "row": 3,
+              "col": 3,
+              "prereq": "Redoubt"
+            },
+            {
+              "name": "Sacred Duty",
+              "max_rank": 2,
+              "row": 3,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Swift Judgement",
+              "max_rank": 1,
+              "row": 4,
+              "col": 1,
+              "prereq": "Improved Seal of Fury"
+            },
+            {
+              "name": "One-Handed Weapon Specialization",
+              "max_rank": 3,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Hammer of Justice",
+              "max_rank": 3,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Templar's Bulwark",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Reckoning",
+              "max_rank": 5,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Iron Creed",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Holy Shield",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Templar's Bulwark"
+            }
+          ]
+        },
+        {
+          "name": "Retribution",
+          "talents": [
+            {
+              "name": "Deflection",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Benediction",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Judgement",
+              "max_rank": 2,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Holy Conduit",
+              "max_rank": 2,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Conviction",
+              "max_rank": 5,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Vindication",
+              "max_rank": 3,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Sanctified Judgement",
+              "max_rank": 3,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Seal of Command",
+              "max_rank": 1,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Pursuit of Justice",
+              "max_rank": 2,
+              "row": 3,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Eye for an Eye",
+              "max_rank": 2,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Sacred Arbiter",
+              "max_rank": 1,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Two-Handed Weapon Specialization",
+              "max_rank": 3,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Vengeance",
+              "max_rank": 3,
+              "row": 5,
+              "col": 2,
+              "prereq": "Sanctified Judgement"
+            },
+            {
+              "name": "Repentance",
+              "max_rank": 1,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Champion of the Light",
+              "max_rank": 3,
+              "row": 6,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Instrument of Law",
+              "max_rank": 2,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Twist of Light",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": null
+            }
+          ]
+        }
+      ]
+    },
+    "Priest": {
+      "total_points": 51,
+      "first_point_level": 10,
+      "trees": [
+        {
+          "name": "Discipline",
+          "talents": [
+            {
+              "name": "Power in Light",
+              "max_rank": 5,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Wand Specialization",
+              "max_rank": 2,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Twin Disciplines",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Silent Resolve",
+              "max_rank": 3,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Holy Precision",
+              "max_rank": 3,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Mental Strength",
+              "max_rank": 5,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Martyrdom",
+              "max_rank": 2,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Mental Agility",
+              "max_rank": 3,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Inner Focus",
+              "max_rank": 1,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Power Word: Shield",
+              "max_rank": 3,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Meditation",
+              "max_rank": 3,
+              "row": 3,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Improved Inner Fire",
+              "max_rank": 3,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Mana Burn",
+              "max_rank": 2,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Soul Warding",
+              "max_rank": 1,
+              "row": 4,
+              "col": 3,
+              "prereq": "Improved Power Word: Shield"
+            },
+            {
+              "name": "Penance",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Renewed Hope",
+              "max_rank": 5,
+              "row": 5,
+              "col": 3,
+              "prereq": "Soul Warding"
+            },
+            {
+              "name": "Divine Aegis",
+              "max_rank": 3,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Power Infusion",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Penance"
+            }
+          ]
+        },
+        {
+          "name": "Holy",
+          "talents": [
+            {
+              "name": "Twilight Focus",
+              "max_rank": 3,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Renew",
+              "max_rank": 3,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Holy Specialization",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Spell Warding",
+              "max_rank": 5,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Divine Fury",
+              "max_rank": 5,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Holy Nova",
+              "max_rank": 1,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Blessed Recovery",
+              "max_rank": 3,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Inspiration",
+              "max_rank": 3,
+              "row": 3,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Holy Reach",
+              "max_rank": 2,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Healing",
+              "max_rank": 3,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Searing Light",
+              "max_rank": 2,
+              "row": 4,
+              "col": 3,
+              "prereq": "Divine Fury"
+            },
+            {
+              "name": "Binding Heal",
+              "max_rank": 1,
+              "row": 4,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Litany of Light",
+              "max_rank": 2,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Spirit of Redemption",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Spiritual Guidance",
+              "max_rank": 5,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Spiritual Healing",
+              "max_rank": 3,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Prayer of Mending",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Spirit of Redemption"
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "talents": [
+            {
+              "name": "Shadow Focus",
+              "max_rank": 5,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Blackout",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Spirit Tap",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Mind Blast",
+              "max_rank": 5,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Shadow Word: Pain",
+              "max_rank": 2,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Shadow Reach",
+              "max_rank": 2,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Improved Psychic Scream",
+              "max_rank": 2,
+              "row": 3,
+              "col": 2,
+              "prereq": "Blackout"
+            },
+            {
+              "name": "Mind Flay",
+              "max_rank": 1,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Mind Flay",
+              "max_rank": 2,
+              "row": 3,
+              "col": 4,
+              "prereq": "Mind Flay"
+            },
+            {
+              "name": "Dark Inspiration",
+              "max_rank": 5,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Vampiric Embrace",
+              "max_rank": 1,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Shadow Weaving",
+              "max_rank": 3,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Silence",
+              "max_rank": 1,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Devouring Contagion",
+              "max_rank": 2,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Early Demise",
+              "max_rank": 2,
+              "row": 6,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Darkness",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Shadowform",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Vampiric Embrace"
+            }
+          ]
+        }
+      ]
+    },
+    "Rogue": {
+      "total_points": 51,
+      "first_point_level": 10,
+      "trees": [
+        {
+          "name": "Assassination",
+          "talents": [
+            {
+              "name": "Improved Gouge",
+              "max_rank": 3,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Remorseless Attacks",
+              "max_rank": 2,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Malice",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Ruthlessness",
+              "max_rank": 3,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Murder",
+              "max_rank": 2,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Slice and Dice",
+              "max_rank": 3,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Relentless Strikes",
+              "max_rank": 1,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Expose Armor",
+              "max_rank": 2,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Lethality",
+              "max_rank": 5,
+              "row": 3,
+              "col": 3,
+              "prereq": "Malice"
+            },
+            {
+              "name": "Vile Poisons",
+              "max_rank": 5,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Cold Blood",
+              "max_rank": 1,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Poisons",
+              "max_rank": 5,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Vigor",
+              "max_rank": 2,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Mutilate",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Kidney Shot",
+              "max_rank": 2,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Seal Fate",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Venom",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Mutilate"
+            }
+          ]
+        },
+        {
+          "name": "Combat",
+          "talents": [
+            {
+              "name": "Improved Eviscerate",
+              "max_rank": 3,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Sinister Strike",
+              "max_rank": 2,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Lightning Reflexes",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Puncturing Wounds",
+              "max_rank": 3,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Deflection",
+              "max_rank": 3,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Precision",
+              "max_rank": 3,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Endurance",
+              "max_rank": 2,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Riposte",
+              "max_rank": 1,
+              "row": 3,
+              "col": 2,
+              "prereq": "Deflection"
+            },
+            {
+              "name": "Improved Sprint",
+              "max_rank": 2,
+              "row": 3,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Improved Kick",
+              "max_rank": 2,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Flawless Execution",
+              "max_rank": 1,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Dual Wield Specialization",
+              "max_rank": 5,
+              "row": 4,
+              "col": 3,
+              "prereq": "Precision"
+            },
+            {
+              "name": "Blade Flurry",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Hack and Slash",
+              "max_rank": 5,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Weapon Expertise",
+              "max_rank": 2,
+              "row": 6,
+              "col": 2,
+              "prereq": "Blade Flurry"
+            },
+            {
+              "name": "Aggression",
+              "max_rank": 3,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Adrenaline Rush",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": null
+            }
+          ]
+        },
+        {
+          "name": "Subtlety",
+          "talents": [
+            {
+              "name": "Camouflage",
+              "max_rank": 5,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Master of Deception",
+              "max_rank": 3,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Opportunity",
+              "max_rank": 2,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Setup",
+              "max_rank": 3,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Elusiveness",
+              "max_rank": 2,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Dirty Tricks",
+              "max_rank": 2,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Ambush",
+              "max_rank": 3,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Initiative",
+              "max_rank": 3,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Ghostly Strike",
+              "max_rank": 1,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Distract",
+              "max_rank": 2,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Heightened Senses",
+              "max_rank": 2,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Premeditation",
+              "max_rank": 1,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Serrated Blades",
+              "max_rank": 3,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Dirty Deeds",
+              "max_rank": 2,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Preparation",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Hemorrhage",
+              "max_rank": 1,
+              "row": 5,
+              "col": 3,
+              "prereq": "Serrated Blades"
+            },
+            {
+              "name": "Quietus",
+              "max_rank": 5,
+              "row": 6,
+              "col": 1,
+              "prereq": "Dirty Deeds"
+            },
+            {
+              "name": "Cutthroat",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Thousand Cuts",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Preparation"
+            }
+          ]
+        }
+      ]
+    },
+    "Shaman": {
+      "total_points": 51,
+      "first_point_level": 10,
+      "trees": [
+        {
+          "name": "Elemental",
+          "talents": [
+            {
+              "name": "Convection",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Concussion",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Elemental Devastation",
+              "max_rank": 3,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Reverberation",
+              "max_rank": 5,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Elemental Alacrity",
+              "max_rank": 3,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Call of Flame",
+              "max_rank": 3,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Elemental Focus",
+              "max_rank": 1,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Elemental Warding",
+              "max_rank": 3,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Trial by Fire",
+              "max_rank": 2,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Eye of the Storm",
+              "max_rank": 3,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Earthbound",
+              "max_rank": 1,
+              "row": 4,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Elemental Reach",
+              "max_rank": 2,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Lava Burst",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Lightning Overload",
+              "max_rank": 3,
+              "row": 5,
+              "col": 3,
+              "prereq": "Elemental Alacrity"
+            },
+            {
+              "name": "Elemental Fury",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": "Lightning Overload"
+            },
+            {
+              "name": "Elemental Mastery",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Lava Burst"
+            }
+          ]
+        },
+        {
+          "name": "Enhancement",
+          "talents": [
+            {
+              "name": "Earth's Grasp",
+              "max_rank": 2,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Thundering Strikes",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Ancestral Knowledge",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Guardian Totems",
+              "max_rank": 2,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Mental Dexterity",
+              "max_rank": 3,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Ghost Wolf",
+              "max_rank": 2,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Lightning Shield",
+              "max_rank": 3,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Elemental Weapons",
+              "max_rank": 3,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Shamanistic Focus",
+              "max_rank": 1,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Anticipation",
+              "max_rank": 3,
+              "row": 3,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Toughness",
+              "max_rank": 5,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Flurry",
+              "max_rank": 5,
+              "row": 4,
+              "col": 2,
+              "prereq": "Mental Dexterity"
+            },
+            {
+              "name": "Stormstrike",
+              "max_rank": 1,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Spirit Weapons",
+              "max_rank": 1,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Mental Quickness",
+              "max_rank": 2,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Stormstrike",
+              "max_rank": 2,
+              "row": 5,
+              "col": 3,
+              "prereq": "Stormstrike"
+            },
+            {
+              "name": "Maelstrom Weapon",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Rage of the Farseer",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Mental Quickness"
+            }
+          ]
+        },
+        {
+          "name": "Restoration",
+          "talents": [
+            {
+              "name": "Improved Healing Wave",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Tidal Focus",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Mindfulness",
+              "max_rank": 3,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Natural Grace",
+              "max_rank": 3,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Totemic Focus",
+              "max_rank": 5,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Reincarnation",
+              "max_rank": 2,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Ancestral Healing",
+              "max_rank": 3,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Healing Focus",
+              "max_rank": 3,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Water Shield",
+              "max_rank": 1,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Tidal Mastery",
+              "max_rank": 5,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Restorative Totems",
+              "max_rank": 5,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Mana Tide Totem",
+              "max_rank": 1,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Healing Way",
+              "max_rank": 3,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Nature's Swiftness",
+              "max_rank": 1,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Purification",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Riptide",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Healing Way"
+            }
+          ]
+        }
+      ]
+    },
+    "Warlock": {
+      "total_points": 51,
+      "first_point_level": 10,
+      "trees": [
+        {
+          "name": "Affliction",
+          "talents": [
+            {
+              "name": "Improved Life Tap",
+              "max_rank": 2,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Suppression",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Corruption",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Grim Reach",
+              "max_rank": 2,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Soul Harvest",
+              "max_rank": 2,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Drains",
+              "max_rank": 3,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Bane of Agony",
+              "max_rank": 2,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Fel Concentration",
+              "max_rank": 3,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Amplify Curse",
+              "max_rank": 1,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Pandemic",
+              "max_rank": 3,
+              "row": 3,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Malevolence",
+              "max_rank": 5,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Nightfall",
+              "max_rank": 2,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Curse of Exhaustion",
+              "max_rank": 1,
+              "row": 4,
+              "col": 3,
+              "prereq": "Amplify Curse"
+            },
+            {
+              "name": "Siphon Life",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Soul Siphon",
+              "max_rank": 3,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Shadow Mastery",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Wrack",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Siphon Life"
+            }
+          ]
+        },
+        {
+          "name": "Demonology",
+          "talents": [
+            {
+              "name": "Improved Health Funnel",
+              "max_rank": 2,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Imp",
+              "max_rank": 3,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Demonic Embrace",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Unholy Power",
+              "max_rank": 5,
+              "row": 1,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Demonic Aegis",
+              "max_rank": 2,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Voidwalker",
+              "max_rank": 3,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Fel Vitality",
+              "max_rank": 3,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Demonic Energies",
+              "max_rank": 2,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Improved Sayaad",
+              "max_rank": 3,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Demonic Sacrifice",
+              "max_rank": 1,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Master Summoner",
+              "max_rank": 2,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Decimation",
+              "max_rank": 2,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Fel Domination",
+              "max_rank": 1,
+              "row": 4,
+              "col": 3,
+              "prereq": "Master Summoner"
+            },
+            {
+              "name": "Demonic Brand",
+              "max_rank": 3,
+              "row": 4,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Improved Felhunter",
+              "max_rank": 3,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Soul Link",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": "Demonic Sacrifice"
+            },
+            {
+              "name": "Demonic Knowledge",
+              "max_rank": 3,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Master Demonologist",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Demonic Pact",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Soul Link"
+            }
+          ]
+        },
+        {
+          "name": "Destruction",
+          "talents": [
+            {
+              "name": "Destructive Reach",
+              "max_rank": 2,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Shadow Bolt",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Bane",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Molten Skin",
+              "max_rank": 5,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Cataclysm",
+              "max_rank": 3,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Aftermath",
+              "max_rank": 5,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Ruin",
+              "max_rank": 5,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Shadowburn",
+              "max_rank": 1,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Intensity",
+              "max_rank": 3,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Agonizing Flames",
+              "max_rank": 3,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Conflagrate",
+              "max_rank": 1,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Pyroclasm",
+              "max_rank": 2,
+              "row": 5,
+              "col": 1,
+              "prereq": "Intensity"
+            },
+            {
+              "name": "Bane of Havoc",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Fire and Brimstone",
+              "max_rank": 3,
+              "row": 5,
+              "col": 3,
+              "prereq": "Conflagrate"
+            },
+            {
+              "name": "Shadow and Flame",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Incinerate",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Bane of Havoc"
+            }
+          ]
+        }
+      ]
+    },
+    "Warrior": {
+      "total_points": 51,
+      "first_point_level": 10,
+      "trees": [
+        {
+          "name": "Arms",
+          "talents": [
+            {
+              "name": "Improved Heroic Strike",
+              "max_rank": 3,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Deflection",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Rend",
+              "max_rank": 3,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Charge",
+              "max_rank": 2,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Tactical Mastery",
+              "max_rank": 5,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Overpower",
+              "max_rank": 2,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Anger Management",
+              "max_rank": 1,
+              "row": 3,
+              "col": 2,
+              "prereq": "Improved Tactical Mastery"
+            },
+            {
+              "name": "Deep Wounds",
+              "max_rank": 3,
+              "row": 3,
+              "col": 3,
+              "prereq": "Improved Rend"
+            },
+            {
+              "name": "Spearing Strike",
+              "max_rank": 1,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Two-Handed Weapon Specialization",
+              "max_rank": 3,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Impale",
+              "max_rank": 2,
+              "row": 4,
+              "col": 3,
+              "prereq": "Deep Wounds"
+            },
+            {
+              "name": "Bloodthrill",
+              "max_rank": 5,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Sweeping Strikes",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Weaponmaster",
+              "max_rank": 5,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Slam",
+              "max_rank": 2,
+              "row": 6,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Hamstring",
+              "max_rank": 3,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Mortal Strike",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Sweeping Strikes"
+            }
+          ]
+        },
+        {
+          "name": "Fury",
+          "talents": [
+            {
+              "name": "Booming Voice",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Cruelty",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Lingering Rage",
+              "max_rank": 5,
+              "row": 2,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Unbridled Wrath",
+              "max_rank": 5,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Furious Precision",
+              "max_rank": 3,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Piercing Howl",
+              "max_rank": 1,
+              "row": 3,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Blood Craze",
+              "max_rank": 3,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Dual Wield Specialization",
+              "max_rank": 5,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Raging Blows",
+              "max_rank": 1,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Enrage",
+              "max_rank": 5,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Execute",
+              "max_rank": 2,
+              "row": 4,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Improved Berserker Rage",
+              "max_rank": 2,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Death Wish",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Intercept",
+              "max_rank": 2,
+              "row": 5,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Flurry",
+              "max_rank": 5,
+              "row": 6,
+              "col": 2,
+              "prereq": "Death Wish"
+            },
+            {
+              "name": "Gore Drinker",
+              "max_rank": 2,
+              "row": 6,
+              "col": 3,
+              "prereq": "Enrage"
+            },
+            {
+              "name": "Bloodthirst",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": null
+            }
+          ]
+        },
+        {
+          "name": "Protection",
+          "talents": [
+            {
+              "name": "Improved Bloodrage",
+              "max_rank": 2,
+              "row": 1,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Shield Specialization",
+              "max_rank": 5,
+              "row": 1,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Iron Will",
+              "max_rank": 5,
+              "row": 1,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Anticipation",
+              "max_rank": 5,
+              "row": 2,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Improved Revenge",
+              "max_rank": 3,
+              "row": 2,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Thunder Clap",
+              "max_rank": 3,
+              "row": 2,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Last Stand",
+              "max_rank": 1,
+              "row": 3,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Master of Defense",
+              "max_rank": 2,
+              "row": 3,
+              "col": 2,
+              "prereq": "Shield Specialization"
+            },
+            {
+              "name": "Improved Disarm",
+              "max_rank": 3,
+              "row": 3,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Defiance",
+              "max_rank": 3,
+              "row": 3,
+              "col": 4,
+              "prereq": null
+            },
+            {
+              "name": "Improved Sunder Armor",
+              "max_rank": 3,
+              "row": 4,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Vanguard",
+              "max_rank": 1,
+              "row": 4,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Improved Shield Bash",
+              "max_rank": 2,
+              "row": 4,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Improved Shield Wall",
+              "max_rank": 2,
+              "row": 5,
+              "col": 1,
+              "prereq": null
+            },
+            {
+              "name": "Concussion Blow",
+              "max_rank": 1,
+              "row": 5,
+              "col": 2,
+              "prereq": null
+            },
+            {
+              "name": "Focused Rage",
+              "max_rank": 3,
+              "row": 5,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Bastion",
+              "max_rank": 5,
+              "row": 6,
+              "col": 3,
+              "prereq": null
+            },
+            {
+              "name": "Shield Slam",
+              "max_rank": 1,
+              "row": 7,
+              "col": 2,
+              "prereq": "Concussion Blow"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "event": "World of Warcraft: Forever global launch",
+  "official": "2026-11-04 15:00 PST",
+  "utc": "2026-11-04T23:00:00Z",
+  "official_source": "https://news.blizzard.com/en-us/article/24302093/carve-a-new-path-with-world-of-warcraft-forever",
+  "maintained_by": "Forever Guides (theforeverguides.com)",
+  "page": "https://theforeverguides.com/launch-time/",
+  "zones": [
+    {
+      "location": "Los Angeles",
+      "iana": "America/Los_Angeles",
+      "local": "2026-11-04T15:00:00-08:00",
+      "abbr": "PST"
+    },
+    {
+      "location": "Denver",
+      "iana": "America/Denver",
+      "local": "2026-11-04T16:00:00-07:00",
+      "abbr": "MST"
+    },
+    {
+      "location": "Chicago",
+      "iana": "America/Chicago",
+      "local": "2026-11-04T17:00:00-06:00",
+      "abbr": "CST"
+    },
+    {
+      "location": "New York",
+      "iana": "America/New_York",
+      "local": "2026-11-04T18:00:00-05:00",
+      "abbr": "EST"
+    },
+    {
+      "location": "Sao Paulo",
+      "iana": "America/Sao_Paulo",
+      "local": "2026-11-04T20:00:00-03:00",
+      "abbr": "-03"
+    },
+    {
+      "location": "London",
+      "iana": "Europe/London",
+      "local": "2026-11-04T23:00:00+00:00",
+      "abbr": "GMT"
+    },
+    {
+      "location": "Paris/Berlin",
+      "iana": "Europe/Paris",
+      "local": "2026-11-05T00:00:00+01:00",
+      "abbr": "CET"
+    },
+    {
+      "location": "Moscow",
+      "iana": "Europe/Moscow",
+      "local": "2026-11-05T02:00:00+03:00",
+      "abbr": "MSK"
+    },
+    {
+      "location": "India",
+      "iana": "Asia/Kolkata",
+      "local": "2026-11-05T04:30:00+05:30",
+      "abbr": "IST"
+    },
+    {
+      "location": "Perth/Singapore/Taipei",
+      "iana": "Australia/Perth",
+      "local": "2026-11-05T07:00:00+08:00",
+      "abbr": "AWST"
+    },
+    {
+      "location": "Seoul/Tokyo",
+      "iana": "Asia/Seoul",
+      "local": "2026-11-05T08:00:00+09:00",
+      "abbr": "KST"
+    },
+    {
+      "location": "Brisbane",
+      "iana": "Australia/Brisbane",
+      "local": "2026-11-05T09:00:00+10:00",
+      "abbr": "AEST"
+    },
+    {
+      "location": "Adelaide",
+      "iana": "Australia/Adelaide",
+      "local": "2026-11-05T09:30:00+10:30",
+      "abbr": "ACDT"
+    },
+    {
+      "location": "Sydney/Melbourne",
+      "iana": "Australia/Sydney",
+      "local": "2026-11-05T10:00:00+11:00",
+      "abbr": "AEDT"
+    },
+    {
+      "location": "Auckland",
+      "iana": "Pacific/Auckland",
+      "local": "2026-11-05T12:00:00+13:00",
+      "abbr": "NZDT"
+    }
+  ]
+}
